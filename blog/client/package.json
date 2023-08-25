@@ -12,8 +12,9 @@
     "start:comment": "cd ../comments && nodemon index.js",
     "start:event": "cd ../event-bus && nodemon index.js",
     "start:query": "cd ../query && nodemon index.js",
+    "start:moderation": "cd ../moderation && nodemon index.js",
     "start:vite": "vite",
-    "start": "concurrently \"npm run start:post\" \"npm run start:comment\" \"npm run start:event\" \"npm run start:query\"  \"npm run start:vite\""
+    "start": "concurrently \"npm run start:post\" \"npm run start:comment\" \"npm run start:event\" \"npm run start:query\" \"npm run start:moderation\" \"npm run start:vite\""
   },
   "dependencies": {
     "axios": "^1.4.0",
