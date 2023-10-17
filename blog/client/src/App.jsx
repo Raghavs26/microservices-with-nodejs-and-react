@@ -1,7 +1,7 @@
 import PostCreate from "./PostCreate.jsx";
 import PostList from "./PostList.jsx";
 
-function App() {
+const App = () => {
   return (
     <div className="container">
       <PostCreate />
@@ -10,6 +10,6 @@ function App() {
       <PostList />
     </div>
   );
-}
+};
 
 export default App;
