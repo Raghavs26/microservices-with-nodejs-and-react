@@ -1,0 +1,16 @@
+{
+  "cmake.configureOnOpen": false,
+  "files.associations": {
+    "array": "cpp",
+    "any": "cpp",
+    "string_view": "cpp",
+    "ranges": "cpp",
+    "span": "cpp",
+    "stacktrace": "cpp",
+    "regex": "cpp",
+    "deque": "cpp",
+    "forward_list": "cpp",
+    "list": "cpp",
+    "vector": "cpp"
+  }
+}
