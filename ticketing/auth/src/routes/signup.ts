@@ -24,9 +24,7 @@ router.post(
   ],
   validateRequest,
   async (req: Request, res: Response) => {
-    console.log("Creating a User....");
     const { email, password }: LoginRequest = req.body;
-    console.log(email, password);
     const userExists = await User.findOne({ email });
     if (userExists) {
       throw new BadRequestError("Email is in use");
